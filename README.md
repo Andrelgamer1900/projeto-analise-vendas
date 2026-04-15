@@ -1,26 +1,44 @@
 # Projeto de Análise de Vendas e Funil de Conversão
 
-Este repositório contém um projeto de análise de dados focado em vendas, leads e performance de lojas. O projeto utiliza SQL para extração e transformação de dados, e o Power BI para visualização dos resultados.
+Este repositório apresenta uma análise completa de dados de vendas, focada em métricas de desempenho, comportamento regional e funil de conversão. O projeto demonstra habilidades em **SQL** para manipulação de dados e **Python** para visualização de insights.
 
-## 📂 Estrutura do Projeto
+## 📊 Visualizações do Projeto
 
-- `queries_vendas.sql`: Contém as consultas SQL utilizadas para extrair métricas de:
-  - Funil de conversão (Leads vs Vendas).
-  - Receita e Ticket Médio mensal.
-  - Top 5 estados com mais vendas.
-  - Top 5 marcas e lojas com melhor performance.
-  - Análise de visitas por dia da semana.
-- `Dashboard_Vendas.pbix`: (A ser adicionado) Dashboard interativo no Power BI.
+Abaixo estão os principais indicadores extraídos das consultas SQL:
 
-## 📊 Principais Insights
+### 1. Funil de Vendas (Leads vs Vendas)
+Acompanhamento mensal da geração de leads e a conversão efetiva em vendas, permitindo identificar a eficiência do time comercial.
+![Funil de Vendas](img/funil_vendas.png)
 
-As consultas SQL foram desenvolvidas para responder perguntas de negócio como:
-1. Qual a taxa de conversão mensal de leads em vendas?
-2. Quais regiões e marcas estão impulsionando o faturamento?
-3. Qual o comportamento de visitas ao longo da semana?
+### 2. Desempenho Regional
+Análise dos 5 estados com maior volume de transações, essencial para estratégias de expansão e logística.
+![Top Estados](img/top_estados.png)
+
+### 3. Market Share por Marca
+Distribuição das vendas entre as principais marcas do portfólio.
+![Vendas por Marca](img/vendas_marca.png)
+
+## 📂 Estrutura do Repositório
+
+- `queries_vendas.sql`: Scripts SQL com as lógicas de negócio e extração de KPIs.
+- `img/`: Pasta contendo as visualizações geradas.
+- `generate_viz.py`: Script Python utilizado para gerar os gráficos automaticamente.
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **SQL**: Extração e tratamento de dados.
-- **Power BI**: Visualização e Dashboard.
-- **GitHub**: Controle de versão e documentação.
+- **SQL**: Extração e tratamento de dados complexos.
+- **Python (Pandas/Seaborn)**: Análise estatística e visualização de dados.
+- **GitHub**: Documentação e controle de versão.
+
+---
+
+## 💡 Como subir suas próprias imagens no GitHub
+
+Se você quiser substituir estas imagens pelos seus prints do Power BI, siga estes passos simples:
+
+1.  Acesse a pasta `img` no seu repositório pelo navegador.
+2.  Clique em **"Add file"** -> **"Upload files"**.
+3.  Arraste seus prints para lá (tente manter os mesmos nomes de arquivo como `funil_vendas.png` para que o README atualize automaticamente).
+4.  Clique em **"Commit changes"** no final da página.
+
+Pronto! Seu portfólio ficará sempre atualizado.
