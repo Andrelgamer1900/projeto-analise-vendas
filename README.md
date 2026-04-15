@@ -32,13 +32,6 @@ Distribuição das vendas entre as principais marcas do portfólio.
 
 ---
 
-## 💡 Como subir suas próprias imagens no GitHub
 
-Se você quiser substituir estas imagens pelos seus prints do Power BI, siga estes passos simples:
 
-1.  Acesse a pasta `img` no seu repositório pelo navegador.
-2.  Clique em **"Add file"** -> **"Upload files"**.
-3.  Arraste seus prints para lá (tente manter os mesmos nomes de arquivo como `funil_vendas.png` para que o README atualize automaticamente).
-4.  Clique em **"Commit changes"** no final da página.
 
-Pronto! Seu portfólio ficará sempre atualizado.
